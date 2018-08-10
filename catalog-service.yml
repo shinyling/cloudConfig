@@ -14,7 +14,7 @@ spring:
     host: localhost
     port: 6379
   datasource:
-    url: jdbc:mysql://10.1.5.71:3306/dev?useSSL=false
+    url: jdbc:mysql://10.1.5.92:3306/dev?useSSL=false
     username: root
     password: root
     initialize: false
