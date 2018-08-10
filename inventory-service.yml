@@ -16,3 +16,5 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://10.1.5.71:8761/eureka/
+logging:
+  config: classpath:log4j2.xml
