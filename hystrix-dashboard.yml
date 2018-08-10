@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: development
+---
+spring:
+  profiles: development
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://10.1.5.71:8761/eureka/
